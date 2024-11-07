@@ -9,7 +9,7 @@ class Animal {
     function __construct($codigo = null,$nome = null,Especie $especie = null)
     {
         $this->Codigo = $codigo;
-        $this->nome = $nome;
+        $this->Nome = $nome;
 
         if($especie != null)
         {
